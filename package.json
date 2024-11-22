@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm i && nodemon index.js"
+    "build": "npm i",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "aula-2": "file:",
+    "babel": "^5.8.38",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "config": "^3.3.12",
